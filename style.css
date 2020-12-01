@@ -8,8 +8,7 @@ h1{
     align-items: center;
     margin-top: 8em;
     /*color for help*/
-    background-color: 
-
+    
 }
 
 #google-img{
@@ -34,8 +33,41 @@ h1{
     border-width: 1px;
     flex-direction:column;
     margin: auto;  OG attempt*/
+    margin-top: 20px;
     border-radius: 10px;
-    min-width: 400px;
-    height: 20px;
+    min-width: 500px;
+    height: 30px;
     border: 1px rgb(207, 205, 205) solid;
 }
+
+.page-top{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 9pt;
+    word-spacing: 6px;
+}
+
+#app-icon{
+    height: 15px;
+    width:15px;
+
+}
+
+#top-words{
+    color:rgb(117, 114, 114);
+    text-decoration: none;
+}
+
+/*#top-right{
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+
+#top-left{
+    display: flex;
+    justify-content: flex-end;
+}
+*/
